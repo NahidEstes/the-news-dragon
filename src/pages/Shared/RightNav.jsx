@@ -7,17 +7,12 @@ import {
   FaInstagram,
   FaTwitter,
 } from "react-icons/fa";
+import Authentication from "../../components/Authentication";
 
 const RightNav = () => {
   return (
     <div>
-      <h4>Login With</h4>
-      <Button className="mb-2" variant="outline-primary">
-        <FaGoogle /> Log in with google
-      </Button>
-      <Button variant="outline-secondary">
-        <FaGithub /> Log in with github
-      </Button>
+      <Authentication />
       <div>
         <ListGroup>
           <ListGroup.Item>
