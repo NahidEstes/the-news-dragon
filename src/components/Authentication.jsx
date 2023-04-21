@@ -56,7 +56,7 @@ const Authentication = () => {
       <Button onClick={handleGitHubSignIn} variant="outline-secondary">
         <FaGithub /> Log in with github
       </Button>
-      <ToastContainer></ToastContainer>
+      <ToastContainer position="top-center"></ToastContainer>
     </div>
   );
 };

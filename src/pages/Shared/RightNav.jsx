@@ -8,6 +8,7 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import Authentication from "../../components/Authentication";
+import { Link } from "react-router-dom";
 
 const RightNav = () => {
   return (
@@ -22,7 +23,9 @@ const RightNav = () => {
             <FaTwitter /> Twitter
           </ListGroup.Item>
           <ListGroup.Item>
-            <FaInstagram /> Instagram
+            <Link to="/login">
+              <FaInstagram /> Instagram
+            </Link>
           </ListGroup.Item>
         </ListGroup>
       </div>
